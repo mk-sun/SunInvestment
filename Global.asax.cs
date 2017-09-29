@@ -9,7 +9,7 @@ using System.Web.Routing;
 
 namespace SunInvestment {
 
-    public class MvcApplication : HttpApplication {
+    public class MvcApplication : HttpApplication { 
         protected void Application_Start() {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
